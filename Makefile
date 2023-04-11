@@ -1,7 +1,7 @@
 install: #создание вирт.окружения, установка пакета
 	poetry install
 
-brain-games: #запуск приложения
+brain-games: #запуск приложения (только приветствие)
 	poetry run brain-games
 
 build: #сборка пакета
@@ -10,8 +10,13 @@ build: #сборка пакета
 publish: #отладка публикации
 	poetry publish --dry-run
 
-package-install:
+package-install: #установка пакета
 	python3 -m pip install --user dist/*.whl
 
+package-reinstall: #удаление и переустановка пакета
+	python3 -m pip install --user --force-reinstall dist/*.whl
+
 lint: #запуск линтера
-	poetry run flake8 brain_games 
+	poetry run flake8 brain_games
+brain-even: #запуск игры на четность
+	poetry run brain-even
