@@ -18,5 +18,9 @@ package-reinstall: #удаление и переустановка пакета
 
 lint: #запуск линтера
 	poetry run flake8 brain_games
+
 brain-even: #запуск игры на четность
 	poetry run brain-even
+
+brain-calc: #запуск игры на вычисления
+	poetry run brain-calc
