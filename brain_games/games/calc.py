@@ -31,7 +31,7 @@ def calc():
             print('Correct!')
             question_count = question_count + 1
         else:
-            question_count = 0
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{result}'. Let's try again, {name}!")
+            return answer
     print(f"Congratulation, {name}!")
