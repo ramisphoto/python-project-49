@@ -5,3 +5,4 @@
 ![example of brain-even](https://asciinema.org/a/3X5zfT2XkzE818OXHaekJT18a)
 ![example of brain-calc](https://asciinema.org/a/p72Z7jyeBa8P7wdHnjrrcvrDe)
 ![example of brain-gcd](https://asciinema.org/a/KSZpNUIeLoz8L9LlLa3M9IoFy)
+![example of brain-progression](https://asciinema.org/a/V3qV4AK3Exrw7NN4sNVGlwd03)

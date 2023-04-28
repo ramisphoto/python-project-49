@@ -27,3 +27,6 @@ brain-calc: #запуск игры на вычисления
 
 brain-gcd: #запуск игры на НОД
 	poetry run brain-gcd
+
+brain-progression: #запуск игры на прогрессии
+	poetry run brain-progression
