@@ -18,16 +18,16 @@ def calc():
         random_operators = choice(operators)
         if random_operators == operators[0]:
             math_question = f'{number_1} + {number_2}'
-            result = str(number_1 + number_2)
+            result = number_1 + number_2
         elif random_operators == operators[1]:
             math_question = f'{number_1} - {number_2}'
-            result = str(number_1 - number_2)
+            result = number_1 - number_2
         elif random_operators == operators[2]:
             math_question = f'{number_1} * {number_3}'
-            result = str(number_1 * number_3)
+            result = number_1 * number_3
         print(f'Question: {math_question}')
         answer = prompt.string('Your answer: ')
-        if answer == result:
+        if answer == str(result):
             print('Correct!')
             question_count = question_count + 1
         else:

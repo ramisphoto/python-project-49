@@ -17,7 +17,7 @@ def even():
             result = 'no'
         print(f'Question: {math_question}')
         answer = prompt.string('Your answer: ')
-        if answer == result:
+        if answer == str(result):
             print('Correct!')
             question_count = question_count + 1
         else:

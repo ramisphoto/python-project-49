@@ -24,3 +24,6 @@ brain-even: #запуск игры на четность
 
 brain-calc: #запуск игры на вычисления
 	poetry run brain-calc
+
+brain-gcd: #запуск игры на НОД
+	poetry run brain-gcd
