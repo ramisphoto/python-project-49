@@ -19,17 +19,14 @@ def progression():
         sq = list(map(lambda num: str(num ** 2), list_numbers_1))
         sub = list(map(lambda num: str(num - number_1), reversed(list_numbers_2)))
         summ = list(map(lambda num: str(num + number_1), list_numbers_2))
-        div = []
-        div.append(number_1)
-        div.append(div[0] + 0)
-        div.append(div[1] + div[0])
-        div.append(div[2] + div[1])
-        div.append(div[3] + div[2])
-        div.append(div[4] + div[3])
-        div.append(div[5] + div[4])
-        div.append(div[6] + div[5])
-        div.append(div[7] + div[6])
-        div.append(div[8] + div[7])
+        div = [number_1]
+        previous = 0
+        current = number_1
+        for index in range(0, 9):
+            next_one = current + previous
+            div.append(next_one)
+            previous = current
+            current = next_one
         div = list(map(str, div))
         random_index = randint(0, 9)
         list_progression = [sq, sub, summ, div]
