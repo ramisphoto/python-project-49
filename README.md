@@ -6,3 +6,4 @@
 ![example of brain-calc](https://asciinema.org/a/p72Z7jyeBa8P7wdHnjrrcvrDe)
 ![example of brain-gcd](https://asciinema.org/a/KSZpNUIeLoz8L9LlLa3M9IoFy)
 ![example of brain-progression](https://asciinema.org/a/V3qV4AK3Exrw7NN4sNVGlwd03)
+![example of brain-prime](https://asciinema.org/a/UGuXc4tpeYd2IYy8tCxrYbvP5)

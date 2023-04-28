@@ -15,7 +15,7 @@ def progression():
         number_2 = randint(1, 100)
         for_fun = randint(4, 10)
         list_numbers_1 = range(number_1, number_1 + 10)
-        list_numbers_2 = range(number_2, number_2 + (10*for_fun), for_fun)
+        list_numbers_2 = range(number_2, number_2 + (10 * for_fun), for_fun)
         sq = list(map(lambda num: str(num ** 2), list_numbers_1))
         sub = list(map(lambda num: str(num - number_1), reversed(list_numbers_2)))
         summ = list(map(lambda num: str(num + number_1), list_numbers_2))
@@ -30,11 +30,11 @@ def progression():
         div.append(div[6] + div[5])
         div.append(div[7] + div[6])
         div.append(div[8] + div[7])
-        div = list(map(str,div))
+        div = list(map(str, div))
         random_index = randint(0, 9)
         list_progression = [sq, sub, summ, div]
         progression = choice(list_progression)
-        result = progression[random_index] 
+        result = progression[random_index]
         progression.insert(random_index, '..')
         progression.pop(random_index + 1)
         math_question = ' '.join(progression)
@@ -48,6 +48,3 @@ def progression():
                   f"Correct answer was '{result}'. Let's try again, {name}!")
             return answer
     print(f'Congratulations, {name}!')
-
-        
-

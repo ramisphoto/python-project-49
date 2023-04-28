@@ -30,3 +30,6 @@ brain-gcd: #запуск игры на НОД
 
 brain-progression: #запуск игры на прогрессии
 	poetry run brain-progression
+
+brain-prime: #запуск игры на простые числа
+	poetry run brain-prime
