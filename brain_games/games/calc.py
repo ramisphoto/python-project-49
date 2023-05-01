@@ -34,4 +34,4 @@ def calc():
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{result}'. Let's try again, {name}!")
             return answer
-    print(f"Congratulation, {name}!")
+    print(f"Congratulations, {name}!")
