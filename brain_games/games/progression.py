@@ -42,6 +42,7 @@ def progression():
             question_count = question_count + 1
         else:
             print(f"'{answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result}'. Let's try again, {name}!")
-            return answer
+                  f"Correct answer was '{result}'.")
+            print(f"Let's try again, {name}!")
+            return
     print(f'Congratulations, {name}!')
