@@ -12,9 +12,9 @@ def prime():
         number = randint(0, 100)
         div = range(2, number)
         math_question = f'{number}'
-        if number == 2:
-            result = 'yes'
-        elif number == 0 or number == 1:
+#        if number == 2:
+#            result = 'yes'
+        if number == 0 or number == 1:
             result = 'no'
         else:
             for i in div:

@@ -17,7 +17,8 @@ def progression():
 #        list_numbers_1 = range(number_1, number_1 + 10)
         list_numbers_2 = range(number_2, number_2 + (10 * for_fun), for_fun)
 #        sq = list(map(lambda num: str(num ** 2), list_numbers_1))
-        sub = list(map(lambda num: str(num - number_1), reversed(list_numbers_2)))
+        sub = list(map(lambda num: 
+                   str(num - number_1), reversed(list_numbers_2)))
         summ = list(map(lambda num: str(num + number_1), list_numbers_2))
 #        div = [number_1]
 #        previous = 0
