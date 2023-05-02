@@ -16,7 +16,7 @@ def progression():
         for_fun = randint(4, 10)
         list_numbers_1 = range(number_1, number_1 + 10)
         list_numbers_2 = range(number_2, number_2 + (10 * for_fun), for_fun)
-#        sq = list(map(lambda num: str(num ** 2), list_numbers_1))
+        sq = list(map(lambda num: str(num ** 2), list_numbers_1))
         sub = list(map(lambda num: str(num - number_1), reversed(list_numbers_2)))
         summ = list(map(lambda num: str(num + number_1), list_numbers_2))
         div = [number_1]
@@ -29,7 +29,7 @@ def progression():
             current = next_one
         div = list(map(str, div))
         random_index = randint(0, 9)
-        list_progression = [sub, summ, div]
+        list_progression = [sq, sub, summ, div]
         progression = choice(list_progression)
         result = progression[random_index]
         progression.insert(random_index, '..')
