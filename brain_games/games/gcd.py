@@ -16,13 +16,11 @@ def gcd():
         if number_1 >= number_2:
             divider = number_2
             rest = number_1 % divider
-            if rest == 0:
-                result = divider
         else:
             divider = number_1
             rest = number_2 % divider
-            if rest == 0:
-                result = divider
+        if rest == 0:
+            result = divider
         while divider and rest != 0:
             divider = divider % rest
             if divider == 0:
