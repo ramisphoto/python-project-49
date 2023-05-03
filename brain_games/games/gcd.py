@@ -24,7 +24,8 @@ def find_divider(number_1, number_2):
         if rest == 0:
             result = divider
             break
-    return result 
+    return result
+
 
 def gcd():
     print('Find the greatest common divisor of given numbers.')
