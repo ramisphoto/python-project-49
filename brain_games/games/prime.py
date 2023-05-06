@@ -9,8 +9,8 @@ def prime():
     div = range(2, number)
     if number == 0 or number == 1:
         result = 'no'
-#    elif number == 2:
-#        result = 'yes'
+    elif number == 2:
+        result = 'yes'
     else:
         for i in div:
             if number % i != 0:
