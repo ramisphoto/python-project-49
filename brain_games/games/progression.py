@@ -5,7 +5,7 @@ from random import choice
 game_rule = 'What number is missing in the progression?'
 
 
-def progression():
+def data_progression():
     number_1 = randint(1, 10)
     number_2 = randint(1, 100)
     for_fun = randint(4, 10)
@@ -27,13 +27,13 @@ def progression():
     random_index = randint(0, 9)
     list_progression = [sub, summ]
     progression = choice(list_progression)
+    return random_index, progression
+
+
+def get_question_and_right_answer():
+    random_index, progression = data_progression()
     result = progression[random_index]
     progression.insert(random_index, '..')
     progression.pop(random_index + 1)
     math_question = ' '.join(progression)
     return math_question, result
-
-
-def Q_A():
-    question, correct_answer = progression()
-    return question, correct_answer

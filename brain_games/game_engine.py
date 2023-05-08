@@ -6,14 +6,12 @@ def engine(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.game_rule)
-#    question_count = 0
     for question_count in range(1, 4):
-        question, correct_answer = game.Q_A()
+        question, correct_answer = game.get_question_and_right_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == str(correct_answer):
             print('Correct!')
-#            question_count = question_count + 1
         else:
             print(f"'{answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'."
