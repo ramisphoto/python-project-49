@@ -1,15 +1,15 @@
 Welcome to the Brain Games.
 The Brain Games is a project which include five math games.
-Each game is selected by user. For this user should enter game's name.
+Each game is selected by user. User should enter game's name.
 Every game has three math questions. Questions are asked in turn.
-User have to answer correct three times for winning, overwise the game is over.
+User has to answer correctly three times for winning, overwise the game is over.
 Games which are included:
 Brain-even(determining an even number or not)
 Brain-calc(calculating simple math expression)
 Brain-gcd(calculating the greatest common divisor)
 Brain-progression(calculating missing number in progression)
 Brain-prime(determining a prime number or not)
-Below are examples of each game.
+Examples of each game are below.
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ramisphoto/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/ramisphoto/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/99b0d981cd00b575104c/maintainability)](https://codeclimate.com/github/ramissabirzyanov/python-project-49/maintainability)
