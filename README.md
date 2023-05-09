@@ -1,6 +1,6 @@
 Welcome to the Brain Games.
-The Brain Games is a project which include five math games.
-Each game is selected by user. User should enter game's name.
+The Brain Games is a project which includes five math games.
+Each game is selected by user. User should enter game's name for start the game.
 Every game has three math questions. Questions are asked in turn.
 User has to answer correctly three times for winning, overwise the game is over.
 Games which are included:
