@@ -6,16 +6,13 @@ game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def get_question_and_right_answer():
     number = randint(0, 100)
-    div = range(2, number)
-    if number == 0 or number == 1:
-        result = 'no'
-    elif number == 2:
+    div = 0
+    for i in range(2, number//2 + 1):
+        if number % i == 0:
+            div = div + 1
+            break
+    if div == 0:
         result = 'yes'
     else:
-        for i in div:
-            if number % i != 0:
-                result = 'yes'
-            else:
-                result = 'no'
-                break
+        result = 'no'
     return number, result
