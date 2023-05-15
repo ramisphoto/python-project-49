@@ -6,7 +6,7 @@ def engine(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.game_rule)
-    for question_count in range(1, 4):
+    for _ in range(1, 4):
         question, correct_answer = game.get_question_and_right_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')

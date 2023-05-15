@@ -11,8 +11,5 @@ def get_question_and_right_answer():
         if number % i == 0:
             div = div + 1
             break
-    if div == 0:
-        result = 'yes'
-    else:
-        result = 'no'
+    result = 'yes' if div == 0 else 'no'
     return number, result
