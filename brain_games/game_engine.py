@@ -5,9 +5,9 @@ def engine(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.game_rule)
+    print(game.GAME_RULE)
     for _ in range(1, 4):
-        question, correct_answer = game.get_question_and_right_answer()
+        question, correct_answer = game.get_question_and_correct_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == str(correct_answer):

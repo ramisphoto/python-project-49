@@ -1,7 +1,7 @@
 from random import randint
 
 
-game_rule = 'Find the greatest common divisor of given numbers.'
+GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(number_1, number_2):
@@ -11,9 +11,9 @@ def gcd(number_1, number_2):
     return gcd(number_2, remainder)
 
 
-def get_question_and_right_answer():
+def get_question_and_correct_answer():
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    math_question = f'{number_1} {number_2}'
+    question = f'{number_1} {number_2}'
     result = gcd(number_1, number_2)
-    return math_question, result
+    return question, result

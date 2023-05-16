@@ -1,11 +1,12 @@
 from random import randint
 
 
-game_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_question_and_right_answer():
+def get_question_and_correct_answer():
     number = randint(0, 100)
+    question = str(number)
     if number == 0 or 1:
         result = 'no'
     div = 0
@@ -14,4 +15,4 @@ def get_question_and_right_answer():
             div = div + 1
             break
     result = 'yes' if div == 0 else 'no'
-    return number, result
+    return question, result
