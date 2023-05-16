@@ -16,20 +16,20 @@ Examples of running each game are below.
 
 
 ###example of brain even
-![brain even](https://asciinema.org/a/Z5B0l07FJhWKz9VCouqaewGmE.svg)
+[![brain even](https://asciinema.org/a/Z5B0l07FJhWKz9VCouqaewGmE.svg)](https://asciinema.org/a/Z5B0l07FJhWKz9VCouqaewGmE)
 
 
 ###example of brain calc
-![brain calc](https://asciinema.org/a/eu3awrwaypDH7K7yFvQqKFx9W.svg)
+[![brain calc](https://asciinema.org/a/eu3awrwaypDH7K7yFvQqKFx9W.svg)](https://asciinema.org/a/eu3awrwaypDH7K7yFvQqKFx9W)
 
 
 ###example of brain gcd
-![brain gcd](https://asciinema.org/a/bnZ8lQ723SkjxITVwZmJSscyL.svg)
+[![brain gcd](https://asciinema.org/a/bnZ8lQ723SkjxITVwZmJSscyL.svg)](https://asciinema.org/a/bnZ8lQ723SkjxITVwZmJSscyL)
 
 
 ###example of brain progression
-![brain progression](https://asciinema.org/a/jrwxoNDEnKQVbsK3vLcss8nWz.svg)
+[![brain progression](https://asciinema.org/a/jrwxoNDEnKQVbsK3vLcss8nWz.svg)](https://asciinema.org/a/jrwxoNDEnKQVbsK3vLcss8nWz)
 
 
 ###example of brain prime
-![brain prime](https://asciinema.org/a/X3zVPAszWMgS1pdC35cA6hmtd.svg)
+[![brain prime](https://asciinema.org/a/X3zVPAszWMgS1pdC35cA6hmtd.svg)](https://asciinema.org/a/X3zVPAszWMgS1pdC35cA6hmtd)
