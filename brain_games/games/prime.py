@@ -7,7 +7,7 @@ GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def get_question_and_correct_answer():
     number = randint(0, 100)
     question = str(number)
-    if number == 0 or 1:
+    if number == (0 or 1):
         result = 'no'
     else:
         div = 0
