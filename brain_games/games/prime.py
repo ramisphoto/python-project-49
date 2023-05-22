@@ -4,10 +4,8 @@ from random import randint
 GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_question_and_correct_answer():
-    number = randint(0, 100)
-    question = str(number)
-    if number == (0 or 1):
+def data_prime(number):
+    if number == 0 or number == 1:
         result = 'no'
     else:
         div = 0
@@ -16,4 +14,11 @@ def get_question_and_correct_answer():
                 div = div + 1
                 break
         result = 'yes' if div == 0 else 'no'
+    return result
+
+
+def get_question_and_correct_answer():
+    number = randint(0, 100)
+    question = str(number)
+    result = data_prime(number)
     return question, result
