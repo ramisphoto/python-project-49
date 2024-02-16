@@ -33,21 +33,21 @@ make package-install
 [![Maintainability](https://api.codeclimate.com/v1/badges/99b0d981cd00b575104c/maintainability)](https://codeclimate.com/github/ramissabirzyanov/python-project-49/maintainability)
 
 
-###example of brain even
+### Example of brain even
 [![asciicast](https://asciinema.org/a/Sqwd3aaivBkomchcBBAlplZ01.svg)](https://asciinema.org/a/Sqwd3aaivBkomchcBBAlplZ01)
 
 
-###example of brain calc
+### Example of brain calc
 [![asciicast](https://asciinema.org/a/s5RtL7PEdiDTvh8B9lB1fenZu.svg)](https://asciinema.org/a/s5RtL7PEdiDTvh8B9lB1fenZu)
 
 
-###example of brain gcd
+### Example of brain gcd
 [![asciicast](https://asciinema.org/a/zQCXg6oDtb2k3rSTngmzUAVFK.svg)](https://asciinema.org/a/zQCXg6oDtb2k3rSTngmzUAVFK)
 
 
-###example of brain progression
+### Example of brain progression
 [![asciicast](https://asciinema.org/a/kPJASp8vKAvs0MDbzwSoVVa4r.svg)](https://asciinema.org/a/kPJASp8vKAvs0MDbzwSoVVa4r)
 
 
-###example of brain prime
+### Example of brain prime
 [![asciicast](https://asciinema.org/a/0oJo3xEdOKjs9mgEWaxzJPTFN.svg)](https://asciinema.org/a/0oJo3xEdOKjs9mgEWaxzJPTFN)
